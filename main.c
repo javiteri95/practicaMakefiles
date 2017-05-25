@@ -2,7 +2,7 @@
 #include <point.h>
 int main(){
 	Point p1, p2;
-	float distancia;
+	float distancia, aux;
 	printf("inserte la coordenada x del primer punto\n");
 	scanf("%f", &p1.x);
 	printf("\ninserte la coordenada y del primer punto\n");
@@ -20,8 +20,11 @@ int main(){
 
 	distancia = encontrarDistancia(p1, p2);
 
-	printf("la distancia entre los dos puntos es \n");
+	printf("la distancia entre los dos puntos es: %f \n", distancia);
 
+
+	//printf("\ninserte la coordenada z del segundo punto\n");
+	//scanf("%f", &aux);
 
 
 
