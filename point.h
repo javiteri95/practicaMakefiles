@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdlib.h>
 
-typedef struct Point{
+typedef struct{
 	float x, y, z;
-};
+}Point;
 
 
 float encontrarDistancia(Point a, Point b);
